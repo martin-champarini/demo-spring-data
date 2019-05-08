@@ -1,12 +1,13 @@
 package com.demo.spring.data.demo.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table(name = "PERSON_TEST")
 public class Person {
